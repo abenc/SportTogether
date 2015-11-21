@@ -56,6 +56,25 @@
             android:padding="12dp"
             android:text="Login"
             android:allowUndo="false"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+
+            android:text="@string/com_facebook_loginview_log_in_button"
+            android:textColor="@color/com_facebook_share_button_text_color"
+            android:textSize="@dimen/com_facebook_share_button_text_size"
+            android:textStyle="bold"
+
+
+            android:drawableLeft="@drawable/com_facebook_button_icon"
+            android:drawablePadding="@dimen/com_facebook_share_button_compound_drawable_padding"
+            android:paddingLeft="@dimen/com_facebook_share_button_padding_left"
+            android:paddingTop="@dimen/com_facebook_share_button_padding_top"
+            android:paddingRight="@dimen/com_facebook_share_button_padding_right"
+            android:paddingBottom="@dimen/com_facebook_share_button_padding_bottom"
+            android:onClick="onLoginFacebookClick"/>
 
         <TextView android:id="@+id/link_signup"
             android:layout_width="fill_parent"
